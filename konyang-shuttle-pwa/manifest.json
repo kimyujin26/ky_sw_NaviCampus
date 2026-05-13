@@ -1,0 +1,26 @@
+{
+  "name": "건양대학교 셔틀버스",
+  "short_name": "건양셔틀",
+  "description": "건양대학교 셔틀버스 노선 확인, 좌석 예약, QR 탑승 인증",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#2e7d32",
+  "lang": "ko-KR",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "노선 확인", "short_name": "노선", "url": "./index.html#routes" },
+    { "name": "좌석 예약", "short_name": "예약", "url": "./index.html#booking" },
+    { "name": "QR 탑승",  "short_name": "QR",   "url": "./index.html#qr" }
+  ],
+  "prefer_related_applications": false
+}
